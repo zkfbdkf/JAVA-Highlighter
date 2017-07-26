@@ -17,6 +17,7 @@ public class GenericList{
         iValues[pos] = obj;
         iSize++;
     }
+
     public Object remove(int pos){
         Object removedValue = iValues[pos];
         for(int i = pos; i < iSize - 1; i++)
